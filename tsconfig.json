@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2016",
+    "target": "ES2017",
+    "lib": ["ES2017", "DOM"],
     "module": "CommonJS",
     "moduleResolution": "Node",
     "declaration": true,
@@ -11,12 +12,14 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "paths": {
       "*": ["node_modules/*"]
     },
     "declarationDir": "./dist/types",
-    "typeRoots": ["./node_modules/@types", "./types"]
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
