@@ -16,8 +16,8 @@ function App() {
       id: '1',
       title: 'Tech Talk: AI in 2024',
       date: new Date(),
-      location: 'Auditorium A',
-      club: 'Computer Science Club',
+      location: 'Auditorium B',
+      club: 'Computer Science and Engineering Club',
       description: 'Explore the latest trends in AI and machine learning'
     },
     {
@@ -25,7 +25,7 @@ function App() {
       title: 'Campus Placement Drive - Google',
       date: new Date(Date.now() + 24 * 60 * 60 * 1000), // Tomorrow
       location: 'Placement Cell',
-      club: 'Career Services',
+      club: 'Career Services and Placement Cell',
       description: 'On-campus recruitment for software engineering positions'
     },
     {
