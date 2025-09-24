@@ -1,10 +1,10 @@
-name: 'Anodite AI'
-description: 'Automated PR Review'
-author: 'sarvesh bhujle'
+name: 'ReviewRanger 🤠'
+description: 'AI-Powered Code Review Ranger - Automatically reviews your PRs with intelligent feedback'
+author: 'nemilai'
 
 branding:
-  icon: 'check-circle'
-  color: 'green'
+  icon: 'zap'
+  color: 'purple'
 
 # Expected inputs for the action
 inputs:
