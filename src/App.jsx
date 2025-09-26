@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Calendar, MessageCircle, Plus } from 'lucide-react';
 import EventCard from './components/EventCard';
 import ChatBox from './components/ChatBox';
+import { db } from './firebaseConfig';
+import { collection, addDoc, onSnapshot, query, orderBy } from 'firebase/firestore';
 
 function App() {
   const [events, setEvents] = useState([]);
@@ -169,7 +171,7 @@ function App() {
               className={`filter-tab ${filter === 'upcoming' ? 'active' : ''}`}
               onClick={() => setFilter('upcoming')}
             >
-              Upcoming!
+              Upcoming
             </div>
           </div>
 
@@ -194,7 +196,7 @@ function App() {
         <section className="chat-section">
           <div className="section-title">
             <MessageCircle size={24} />
-            Ask CampusGPT...
+            Ask CampusGPT
           </div>
           <ChatBox events={events} />
         </section>
