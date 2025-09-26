@@ -33,13 +33,13 @@ function App() {
       title: 'Hackathon 2024: Build the Future',
       date: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // Next week
       location: 'Innovation Lab',
-      club: 'Coding Club',
+      club: 'Coding Club of PDEU',
       description: '48-hour hackathon with exciting prizes and pizzas'
     },
     {
       id: '4',
       title: 'Cultural Fest Registration',
-      date: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000), // 3 days
+      date: new Date(Date.now() + 4 * 24 * 60 * 60 * 1000), // 3 days
       location: 'Student Center',
       club: 'Cultural Committee',
       description: 'Register for the annual cultural festival RIGHT NOW!!'
